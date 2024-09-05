@@ -18,8 +18,8 @@ Este projeto implementa um sistema de reservas de churrasqueiras, permitindo aos
 
 ## Autor
 
-- **Nome:**Marcos Paulo Diniz Da Silva
-- **Curso:** Análise e Desenvolvimento de Sistemas (4° período) - Estácio
+- **Nome:** Marcos Paulo Diniz Da Silva
+- **Curso:** Análise e Desenvolvimento de Sistemas (4° período) - Faculdade Estácio de Sá.
 - **Formação Técnica:** Técnico em Informática
 - **Outras Habilidades:** 
   - Excel Avançado
