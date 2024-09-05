@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva de Churrasqueiras</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Reserva de Churrasqueiras</h1>
+        <form id="reservationForm">
+            <label for="grill">Escolha uma Churrasqueira:</label>
+            <select id="grill" name="grill" required>
+                <option value="1">Churrasqueira 1</option>
+                <option value="2">Churrasqueira 2</option>
+                <option value="3">Churrasqueira 3</option>
+            </select>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="title">Título do Sócio:</label>
+            <input type="text" id="title" name="title" required>
+            
+            <label for="date">Data:</label>
+            <input type="date" id="date" name="date" required>
+            
+            <label for="password">Senha (6 dígitos):</label>
+            <input type="password" id="password" name="password" required>
+            
+            <button type="submit">Reservar</button>
+        </form>
+        
+        <h2>Cancelar Reserva</h2>
+        <form id="cancelForm">
+            <label for="cancelTitle">Título do Sócio:</label>
+            <input type="text" id="cancelTitle" name="cancelTitle" required>
+            
+            <label for="cancelDate">Data da Reserva:</label>
+            <input type="date" id="cancelDate" name="cancelDate" required>
+            
+            <label for="cancelGrill">Churrasqueira:</label>
+            <select id="cancelGrill" name="cancelGrill" required>
+                <option value="1">Churrasqueira 1</option>
+                <option value="2">Churrasqueira 2</option>
+                <option value="3">Churrasqueira 3</option>
+            </select>
+
+            <label for="cancelPassword">Senha:</label>
+            <input type="password" id="cancelPassword" name="cancelPassword" required>
+
+            <button type="button" onclick="cancelarReserva()">Cancelar Reserva</button>
+        </form>
+        <h2>Consultar Reserva</h2>
+        <form id="consultForm">
+            <label for="consultTitle">Título do Sócio:</label>
+            <input type="text" id="consultTitle" name="consultTitle" required>
+
+            <label for="consultPassword">Senha:</label>
+            <input type="password" id="consultPassword" name="consultPassword" minlength="6" maxlength="6" required>
+
+            <button type="button" onclick="consultarReserva()">Consultar Reserva</button>
+            <p id="consultResult"></p>
+        </form>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
