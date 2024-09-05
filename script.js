@@ -118,9 +118,9 @@ function limparFormulario() {
 }
 
 function limparFormularioCancelamento() {
-    document.getElementById('cancelForm').reset(); // Reseta todos os campos do formulário de cancelamento
+    document.getElementById('cancelForm').reset();  Reseta todos os campos do formulário de cancelamento
 }
-//limparFormularioConsulta();
+limparFormularioConsulta();
 
-//function limparFormularioConsulta() {
-  //  document.getElementById('consultForm').reset(); // Reseta todos os campos do formulário de consulta
+function limparFormularioConsulta() {
+ document.getElementById('consultForm').reset();  Reseta todos os campos do formulário de consulta
